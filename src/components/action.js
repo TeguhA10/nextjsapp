@@ -6,6 +6,8 @@ const apiUrlAuth = 'http://localhost:5000/';
 
 const initialData = [];
 
+// test second commit 
+
 export const checkToken = (router) => {
     const token = localStorage.getItem('token');
     if (!token) {
